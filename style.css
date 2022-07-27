@@ -1,2 +1,44 @@
 /* < !-- MD. LUTFULLAHIL LABIB --> */
 /* CUSTOMIZE CSS */
+
+/* Google-Font */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Lobster+Two:ital,wght@1,400;1,700&family=Manrope:wght@200;300;400&family=Poppins:wght@400;500;600;700&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* FONT-SIZE */
+/* 
+$h1-font-size:                $font-size-base * 2.5;
+$h2-font-size:                $font-size-base * 2;
+$h3-font-size:                $font-size-base * 1.75;
+$h4-font-size:                $font-size-base * 1.5;
+$h5-font-size:                $font-size-base * 1.25;
+$h6-font-size:                $font-size-base; 
+*/
+/* fs-1 = fs-2 = fs-3 = fs-4 = fs-5 */
+
+/* FONT-WEIGHT */
+/* 
+$font-weight-light:           300;
+$font-weight-normal:          400;
+$font-weight-semibold:        600;
+$font-weight-bold:            700;
+ */
+/* 
+ fw-bold
+ fw-semibold
+ fw-normal
+ fw-light
+ 
+ fst-normal
+*/
+
+@media only screen and (max-width: 991.98px) {
+    .cus-p-left {
+        position: absolute;
+        left: 70%;
+    }
+
+}
