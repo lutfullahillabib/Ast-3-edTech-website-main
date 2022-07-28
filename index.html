@@ -17,14 +17,14 @@
 
 <body>
     <!-- Full-Container -->
-    <div class="container">
+    <section class="container">
 
         <header>
             <!-- NavBar Start -->
             <!-- gutter isn't working but gap is working..!!?? -->
             <nav class="navbar navbar-expand-lg ">
                 <div class="container-fluid">
-                    <a class="navbar-brand fw-semibold fs-1" href="#">Pro Edu</a>
+                    <a class="navbar-brand fw-semibold fs-1 text-wrap" href="#">Pro Edu</a>
 
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                         data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
@@ -188,7 +188,7 @@
                     <!-- card-1 -->
                     <div class="col">
                         <div class="card d-flex flex-column flex-md-row h-100">
-                            <img src="images/course/course-1.png" class="img-fluid" alt="...">
+                            <img src="images/course/course-1.png" class="img-fluid w-100" alt="...">
                             <div class="card-body overflow-hidden">
                                 <h5 class="card-title fw-semibold fs-4">Fundamental Of UI/UX Design</h5>
                                 <p class="card-text fw-normal fs-6">Some quick example text to build on the card title
@@ -200,7 +200,7 @@
                     <!-- card-2 -->
                     <div class="col">
                         <div class="card d-flex flex-column flex-md-row h-100">
-                            <img src="images/course/course-2.png" class="img-fluid" alt="...">
+                            <img src="images/course/course-2.png" class="img-fluid w-100" alt="...">
                             <div class="card-body overflow-hidden">
                                 <h5 class="card-title fw-semibold fs-4">Javascript Basic to advanced</h5>
                                 <p class="card-text fw-normal fs-6">Some quick example text to build on the card title
@@ -212,7 +212,7 @@
                     <!-- card-3 -->
                     <div class="col">
                         <div class="card d-flex flex-column flex-md-row h-100">
-                            <img src="images/course/course-3.png" class="img-fluid" alt="...">
+                            <img src="images/course/course-3.png" class="img-fluid w-100" alt="...">
                             <div class="card-body overflow-hidden">
                                 <h5 class="card-title fw-semibold fs-4">Fullstack Web Development</h5>
                                 <p class="card-text fw-normal fs-6">Some quick example text to build on the card title
@@ -224,7 +224,7 @@
                     <!-- card-4 -->
                     <div class="col d-none d-lg-block">
                         <div class="card d-flex flex-column flex-md-row h-100">
-                            <img src="images/course/course-4.png" class="img-fluid" alt="...">
+                            <img src="images/course/course-4.png" class="img-fluid w-100" alt="...">
                             <div class="card-body overflow-hidden">
                                 <h5 class="card-title fw-semibold fs-4">Digital Marketing</h5>
                                 <p class="card-text fw-normal fs-6">Some quick example text to build on the card title
@@ -236,7 +236,7 @@
                     <!-- card-5 -->
                     <div class="col d-none d-lg-block">
                         <div class="card d-flex flex-column flex-md-row h-100">
-                            <img src="images/course/course-5.png" class="img-fluid" alt="...">
+                            <img src="images/course/course-5.png" class="img-fluid w-100" alt="...">
                             <div class="card-body overflow-hidden">
                                 <h5 class="card-title fw-semibold fs-4">Photography Basic Rules</h5>
                                 <p class="card-text fw-normal fs-6">Some quick example text to build on the card title
@@ -248,7 +248,7 @@
                     <!-- card-6 -->
                     <div class="col d-none d-lg-block">
                         <div class="card d-flex flex-column flex-md-row h-100">
-                            <img src="images/course/course-6.png" class="img-fluid" alt="...">
+                            <img src="images/course/course-6.png" class="img-fluid w-100" alt="...">
                             <div class="card-body overflow-hidden">
                                 <h5 class="card-title fw-semibold fs-4">Motion Graphics</h5>
                                 <p class="card-text fw-normal fs-6">Some quick example text to build on the card title
@@ -268,9 +268,55 @@
                 </div>
             </section>
             <!-- Courses End -->
+
+            <!-- Ready To Join.. start -->
+            <section>
+                <!-- Join-info -->
+                <div
+                    class="bg-primary my-4 p-5 rounded d-flex flex-lg-row flex-column justify-content-between align-items-center">
+                    <!-- written-part -->
+                    <div class="text-white w-50 py-2 text-center text-lg-start">
+                        <!-- is  text-light = text-white ..?? -->
+                        <h5 class="fw-semibold fs-1 py-2">Ready to join?</h5>
+                        <p class="fw-normal fs-6 py-2">It is a long established fact that a reader will be distracted by
+                            the
+                            readable content of a page
+                            when looking at its layout.</p>
+                    </div>
+                    <!-- White-Reg-Btn With -> Button trigger Modal -->
+                    <div class="d-flex align-items-center py-2">
+                        <button type="button" class=" btn btn-light text-primary fw-semibold fs-5 px-4"
+                            data-bs-toggle="modal" data-bs-target="#exampleModal">Register
+                            Now</button>
+                    </div>
+                    <!-- Modal-start -->
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="text-info modal-title" id="exampleModalLabel">Congratulation..!!</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="text-secondary modal-body">
+                                    You Have Made a very Good Choice.. Please Register..
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary"
+                                        data-bs-dismiss="modal">Close</button>
+                                    <button type="button" class="btn btn-primary">Register</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Modal-End -->
+                </div>
+            </section>
+            <!-- Ready To Join.. End -->
         </main>
 
-    </div>
+    </section>
 
     <!-- Font-Awesome -->
     <script src="https://kit.fontawesome.com/c672fc591a.js" crossorigin="anonymous"></script>
