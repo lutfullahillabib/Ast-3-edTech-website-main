@@ -35,12 +35,20 @@ $font-weight-bold:            700;
  fst-normal
 */
 
+/* carousel-imgs */
 .carousel-item img {
     filter: brightness(50%);
     height: 80vh;
     object-fit: cover;
 }
 
+/* .card img {
+    height: 30vh;
+    width: 30vh;
+    object-fit: cover;
+} */
+
+/* Nav-Reg-Btn-for-Mobile */
 @media only screen and (max-width: 991.98px) {
     .cus-p-left {
         position: absolute;
