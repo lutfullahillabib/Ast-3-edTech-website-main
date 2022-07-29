@@ -42,14 +42,12 @@ $font-weight-bold:            700;
     object-fit: cover;
 }
 
-/* Nav-Reg-Btn-for-Mobile */
+/* Nav-Reg-Btn-for-Tab (& Large) */
 @media only screen and (max-width: 991.98px) {
     .cus-p-left {
         position: absolute;
         left: 70%;
     }
-
 }
 
-/* fw-semibold fs-1 */
-/* fw-normal fs-6 */
+/* The End */

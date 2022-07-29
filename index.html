@@ -7,7 +7,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- TITLE -->
-    <title>edTech</title>
+    <title>edTech - Tech & Edu</title>
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="images/comma.png" type="image/x-icon">
+    <!-- Font-Awesome-Kit -->
+    <script src="https://kit.fontawesome.com/c672fc591a.js" crossorigin="anonymous"></script>
     <!-- BOOTSTRAP CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
@@ -18,13 +22,14 @@
 <body>
     <!-- Full-Container -->
     <section class="container">
-
+        <!-- header = nav + banner -->
         <header>
             <!-- NavBar Start -->
             <!-- gutter isn't working but gap is working..!!?? -->
-            <nav class="navbar navbar-expand-lg ">
+            <!-- Try-Navbar Fixed or Sticky Top Next time... -->
+            <nav class="navbar navbar-expand-lg">
                 <div class="container-fluid">
-                    <a class="navbar-brand fw-semibold fs-1 text-wrap" href="#">Pro Edu</a>
+                    <a class="navbar-brand fw-semibold fs-1 text-wrap" href="#">Tech & Edu</a>
 
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                         data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
@@ -77,12 +82,8 @@
                             <div
                                 class="carousel-caption gap-2 d-flex flex-column align-items-center justify-content-center h-100">
                                 <h5 class="fw-semibold fs-1 w-50">Get Started Digital Learning</h5>
-                                <p class="w-75 fs-6 fw-normal">It is a long established fact that a reader will be
-                                    distracted by
-                                    the
-                                    readable
-                                    content of a
-                                    page when looking at its layout.</p>
+                                <p class="w-75 fs-6 fw-normal">Take the next step toward your personal and professional
+                                    goals with Digital learning platform.</p>
                                 <button type="button" class="btn btn-primary px-4 py-2 fw-semibold fs-5">Get
                                     Started</button>
                             </div>
@@ -93,13 +94,9 @@
 
                             <div
                                 class="carousel-caption gap-2 d-flex flex-column align-items-center justify-content-center h-100">
-                                <h5 class="fw-semibold fs-1 w-50">Get Started Digital Learning</h5>
-                                <p class="w-75 fs-6 fw-normal">It is a long established fact that a reader will be
-                                    distracted by
-                                    the
-                                    readable
-                                    content of a
-                                    page when looking at its layout.</p>
+                                <h5 class="fw-semibold fs-1 w-50">Get Job-Ready for an In-Demand Career</h5>
+                                <p class="w-75 fs-6 fw-normal">Breakthrough pricing on 100% online degrees from top
+                                    universities.</p>
                                 <button type="button" class="btn btn-primary px-4 py-2 fw-semibold fs-5">Get
                                     Started</button>
                             </div>
@@ -110,13 +107,9 @@
 
                             <div
                                 class="carousel-caption gap-2 d-flex flex-column align-items-center justify-content-center h-100">
-                                <h5 class="fw-semibold fs-1 w-50">Get Started Digital Learning</h5>
-                                <p class="w-75 fs-6 fw-normal">It is a long established fact that a reader will be
-                                    distracted by
-                                    the
-                                    readable
-                                    content of a
-                                    page when looking at its layout.</p>
+                                <h5 class="fw-semibold fs-1 w-50">Find a Top Degree that Fits your Life</h5>
+                                <p class="w-75 fs-6 fw-normal">Break into a new field like information technology or
+                                    data science. No prior experience necessary to get started.</p>
                                 <button type="button" class="btn btn-primary px-4 py-2 fw-semibold fs-5">Get
                                     Started</button>
                             </div>
@@ -138,7 +131,7 @@
             <!-- Banner/carousel End -->
         </header>
 
-
+        <!-- main = except-footer & header -->
         <main>
             <!-- Courses Start -->
             <section>
@@ -146,13 +139,9 @@
                 <div class="text-center my-5">
                     <div class="d-flex flex-column align-items-center">
                         <h1 class="w-50 fw-semibold fs-1">Discover Our Popular Courses</h1>
-                        <p class="w-50 fw-normal fs-6">It is a long established fact that a reader will
-                            be
-                            distracted by the
-                            readable
-                            content
-                            of a page when looking
-                            at its layout.</p>
+                        <p class="w-50 fw-normal fs-6">Start, switch, or advance your career with more than 5,000
+                            courses, Professional Certificates, and degrees from world-class universities and companies.
+                        </p>
                     </div>
                 </div>
 
@@ -185,14 +174,16 @@
 
                 <!-- All-Courses-Cards -->
                 <div class="row row-cols-1 row-cols-lg-2 g-4">
+                    <!-- img = class="img-fluid w-100" = when..!!?? -->
+
                     <!-- card-1 -->
                     <div class="col">
                         <div class="card d-flex flex-column flex-md-row h-100">
-                            <img src="images/course/course-1.png" class="img-fluid w-100" alt="...">
-                            <div class="card-body overflow-hidden">
+                            <img src="images/course/course-1.png" alt="...">
+                            <div class="card-body overflow-hidden d-flex flex-column justify-content-between">
                                 <h5 class="card-title fw-semibold fs-4">Fundamental Of UI/UX Design</h5>
-                                <p class="card-text fw-normal fs-6">Some quick example text to build on the card title
-                                    and make up the bulk of the card.</p>
+                                <p class="card-text fw-normal fs-6">Creating user-friendly interfaces to help users.
+                                </p>
                                 <h5 class="fw-semibold fs-5 text-primary">Price : 20$</h5>
                             </div>
                         </div>
@@ -200,11 +191,11 @@
                     <!-- card-2 -->
                     <div class="col">
                         <div class="card d-flex flex-column flex-md-row h-100">
-                            <img src="images/course/course-2.png" class="img-fluid w-100" alt="...">
-                            <div class="card-body overflow-hidden">
+                            <img src="images/course/course-2.png" alt="...">
+                            <div class="card-body overflow-hidden d-flex flex-column justify-content-between">
                                 <h5 class="card-title fw-semibold fs-4">Javascript Basic to advanced</h5>
-                                <p class="card-text fw-normal fs-6">Some quick example text to build on the card title
-                                    and make up the bulk of the card.</p>
+                                <p class="card-text fw-normal fs-6">JavaScript is the programming language of the Web.
+                                    JavaScript is easy to learn.</p>
                                 <h5 class="fw-semibold fs-5 text-primary">Price : 20$</h5>
                             </div>
                         </div>
@@ -212,11 +203,11 @@
                     <!-- card-3 -->
                     <div class="col">
                         <div class="card d-flex flex-column flex-md-row h-100">
-                            <img src="images/course/course-3.png" class="img-fluid w-100" alt="...">
-                            <div class="card-body overflow-hidden">
+                            <img src="images/course/course-3.png" alt="...">
+                            <div class="card-body overflow-hidden d-flex flex-column justify-content-between">
                                 <h5 class="card-title fw-semibold fs-4">Fullstack Web Development</h5>
-                                <p class="card-text fw-normal fs-6">Some quick example text to build on the card title
-                                    and make up the bulk of the card.</p>
+                                <p class="card-text fw-normal fs-6">A full stack web developer can develop both client
+                                    and server software.</p>
                                 <h5 class="fw-semibold fs-5 text-primary">Price : 20$</h5>
                             </div>
                         </div>
@@ -224,23 +215,24 @@
                     <!-- card-4 -->
                     <div class="col d-none d-lg-block">
                         <div class="card d-flex flex-column flex-md-row h-100">
-                            <img src="images/course/course-4.png" class="img-fluid w-100" alt="...">
-                            <div class="card-body overflow-hidden">
+                            <img src="images/course/course-4.png" alt="...">
+                            <div class="card-body overflow-hidden d-flex flex-column justify-content-between">
                                 <h5 class="card-title fw-semibold fs-4">Digital Marketing</h5>
-                                <p class="card-text fw-normal fs-6">Some quick example text to build on the card title
-                                    and make up the bulk of the card.</p>
-                                <h5 class="fw-semibold fs-5 text-primary">Price : 20$</h5>
+                                <p class="card-text fw-normal fs-6">Now a days digital marketing is very popular
+                                    career
+                                    path.</p>
+                                <h5 class="fw-semibold fs-5 text-primary py-auto">Price : 20$</h5>
                             </div>
                         </div>
                     </div>
                     <!-- card-5 -->
                     <div class="col d-none d-lg-block">
                         <div class="card d-flex flex-column flex-md-row h-100">
-                            <img src="images/course/course-5.png" class="img-fluid w-100" alt="...">
-                            <div class="card-body overflow-hidden">
+                            <img src="images/course/course-5.png" alt="...">
+                            <div class="card-body overflow-hidden d-flex flex-column justify-content-between">
                                 <h5 class="card-title fw-semibold fs-4">Photography Basic Rules</h5>
-                                <p class="card-text fw-normal fs-6">Some quick example text to build on the card title
-                                    and make up the bulk of the card.</p>
+                                <p class="card-text fw-normal fs-6">The photography exposure basics we'll discuss in
+                                    this course.</p>
                                 <h5 class="fw-semibold fs-5 text-primary">Price : 20$</h5>
                             </div>
                         </div>
@@ -248,11 +240,11 @@
                     <!-- card-6 -->
                     <div class="col d-none d-lg-block">
                         <div class="card d-flex flex-column flex-md-row h-100">
-                            <img src="images/course/course-6.png" class="img-fluid w-100" alt="...">
-                            <div class="card-body overflow-hidden">
+                            <img src="images/course/course-6.png" alt="...">
+                            <div class="card-body overflow-hidden d-flex flex-column justify-content-between">
                                 <h5 class="card-title fw-semibold fs-4">Motion Graphics</h5>
-                                <p class="card-text fw-normal fs-6">Some quick example text to build on the card title
-                                    and make up the bulk of the card.</p>
+                                <p class="card-text fw-normal fs-6">Motion graphics is animation, but with text as a
+                                    major component.</p>
                                 <h5 class="fw-semibold fs-5 text-primary">Price : 20$</h5>
                             </div>
                         </div>
@@ -278,10 +270,8 @@
                     <div class="text-white w-50 py-2 text-center text-lg-start">
                         <!-- is  text-light = text-white ..?? -->
                         <h5 class="fw-semibold fs-1 py-2">Ready to join?</h5>
-                        <p class="fw-normal fs-6 py-2">It is a long established fact that a reader will be distracted by
-                            the
-                            readable content of a page
-                            when looking at its layout.</p>
+                        <p class="fw-normal fs-6 py-2">Are you ready to explore our courses and learn effective in a
+                            way? Hurry up and register to know more about the courses.</p>
                     </div>
                     <!-- White-Reg-Btn With -> Button trigger Modal -->
                     <div class="d-flex align-items-center py-2">
@@ -295,18 +285,40 @@
                         <div class="modal-dialog">
                             <div class="modal-content">
                                 <div class="modal-header">
-                                    <h5 class="text-info modal-title" id="exampleModalLabel">Congratulation..!!</h5>
+                                    <h5 class="text-info modal-title" id="exampleModalLabel">Your Info</h5>
                                     <button type="button" class="btn-close" data-bs-dismiss="modal"
                                         aria-label="Close"></button>
                                 </div>
                                 <div class="text-secondary modal-body">
-                                    You Have Made a very Good Choice.. Please Register..
+                                    <!-- Form-Including--modal-footer-btn -->
+                                    <form>
+                                        <!-- Name -->
+                                        <div class="mb-3">
+                                            <label for="recipient-name" class="col-form-label">Your Name: </label>
+                                            <input type="text" class="form-control" id="recipient-name"
+                                                placeholder="Your Name" required>
+                                        </div>
+                                        <!-- email -->
+                                        <div class="mb-3">
+                                            <label for="mail" class="col-form-label">Email: </label>
+                                            <input type="email" class="form-control" id="mail"
+                                                placeholder="Your Email: email@mail.com" required>
+                                        </div>
+                                        <!-- password -->
+                                        <div class="mb-3">
+                                            <label for="pass" class="col-form-label">Password: </label>
+                                            <input type="password" class="form-control" id="pass"
+                                                placeholder="New Password" required>
+                                        </div>
                                 </div>
+                                <!-- modal-footer-btn -->
                                 <div class="modal-footer">
+                                    <input type="reset" value="Reset" class="btn btn-warning text-secondary">
                                     <button type="button" class="btn btn-secondary"
                                         data-bs-dismiss="modal">Close</button>
-                                    <button type="button" class="btn btn-primary">Register</button>
+                                    <input type="submit" value="Register" class="btn btn-primary">
                                 </div>
+                                </form>
                             </div>
                         </div>
                     </div>
@@ -321,9 +333,8 @@
                 <div class="text-center my-5">
                     <div class="d-flex flex-column align-items-center">
                         <h1 class="fw-semibold fs-1">Frequently Asked Questions</h1>
-                        <p class="w-75 fw-normal fs-6">It is a long established fact that a reader will be distracted by
-                            the
-                            readable content of a page when looking at its layout.</p>
+                        <p class="w-50 fw-normal fs-6">Below you'll find answers to the questions we get asked most
+                            frequently.</p>
                     </div>
                 </div>
 
@@ -333,71 +344,201 @@
                         <!-- @Q-1 -->
                         <div class="accordion-item">
                             <h2 class="accordion-header" id="headingOne">
-                                <button class="accordion-button" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                    Accordion Item #1
-                                </button>
+                                <button class="accordion-button fw-semibold fs-5" type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true"
+                                    aria-controls="collapseOne">What
+                                    are the differences between Flex and Grid Layout?</button>
                             </h2>
                             <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
                                 data-bs-parent="#accordionExample">
-                                <div class="accordion-body">
-                                    <strong>This is the first item's accordion body.</strong> It is shown by default,
-                                    until
-                                    the
-                                    collapse plugin adds the appropriate classes that we use to style each element.
-                                    These
-                                    classes control the overall appearance, as well as the showing and hiding via CSS
-                                    transitions. You can modify any of this with custom CSS or overriding our default
-                                    variables.
-                                    It's also worth noting that just about any HTML can go within the
-                                    <code>.accordion-body</code>, though the transition does limit overflow.
-                                </div>
+                                <div class="accordion-body fw-normal fs-6 text-secondary">The basic difference between
+                                    CSS Grid Layout
+                                    and CSS Flexbox Layout is that flexbox was designed for layout in one dimension -
+                                    either a row or a column. Grid was designed for two-dimensional layout - rows, and
+                                    columns at the same time. The two specifications share some common features,
+                                    however, and if you have already learned how to use flexbox, the similarities should
+                                    help you get to grips with Grid.</div>
                             </div>
                         </div>
                         <!-- @Q-2 -->
                         <div class="accordion-item">
                             <h2 class="accordion-header" id="headingTwo">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                    Accordion Item #2
-                                </button>
+                                <button class="accordion-button collapsed fw-semibold fs-5" type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false"
+                                    aria-controls="collapseTwo">What
+                                    are the differences between Bootstrap & Tailwind?</button>
                             </h2>
                             <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
                                 data-bs-parent="#accordionExample">
-                                <div class="accordion-body">
-                                    <strong>This is the second item's accordion body.</strong> It is hidden by default,
-                                    until
-                                    the collapse plugin adds the appropriate classes that we use to style each element.
-                                    These
-                                    classes control the overall appearance, as well as the showing and hiding via CSS
-                                    transitions. You can modify any of this with custom CSS or overriding our default
-                                    variables.
-                                    It's also worth noting that just about any HTML can go within the
-                                    <code>.accordion-body</code>, though the transition does limit overflow.
+                                <div class="accordion-body fw-normal fs-6 text-secondary">
+                                    <!-- TailWind vs BootStrap Table -->
+                                    <table class="table table-striped table-hover text-secondary">
+                                        <thead>
+                                            <tr>
+                                                <th scope="col">#</th>
+                                                <th scope="col">Tailwind CSS</th>
+                                                <th scope="col">Bootstrap</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody class="table-group-divider">
+                                            <tr>
+                                                <th scope="row">1</th>
+                                                <td>Tailwind offers predesigned widgets to build a site from scratch
+                                                    with fast UI development.</td>
+                                                <td>Bootstrap comes with a set of pre-styled responsive, mobile-first
+                                                    components that possess a definite UI kit.</td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">2</th>
+                                                <td>Tailwind CSS uses a set of utility classes to create a neat UI with
+                                                    more flexibility and uniqueness.</td>
+                                                <td>Sites created using Bootstrap follow the generic pattern that makes
+                                                    them look identical.</td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">3</th>
+                                                <td>Websites created using Tailwind CSS are much more
+                                                    customizable.</td>
+                                                <td>Websites created with Bootstraps are known for their responsiveness
+                                                    and flawless design, but the looks are generic and similar.</td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">4</th>
+                                                <td>Tailwind CSS is relatively newer, and there is still
+                                                    much room to grow in terms of its community, however, it is growing
+                                                    day by day, and the number of users, references, tools, and websites
+                                                    related to it are also increasing.</td>
+                                                <td>Bootstrap is efficient and saves a lot of time. It has been around
+                                                    for more than nine years and being the most popular CSS Framework,
+                                                    it has a large community of developers, forums, tools, and so on.
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">5</th>
+                                                <td>Tailwind CSS only needs the base stylesheet file, which
+                                                    amounts up to 27kb making it lighter.</td>
+                                                <td>Bootstrap has four files that are required to include in your
+                                                    project to get the full benefit of the CSS Framework. The total size
+                                                    of these files is 308.25kb including, jQuery, Popper.js, Bootstrap
+                                                    JS, and the main Bootstrap CSS file.</td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">6</th>
+                                                <td>Tailwind CSS is used by BlaBlaCar, Exyplis, and Bazzite.
+                                                </td>
+                                                <td>Spotify, Twitter, and Lyft are some of the famous companies that use
+                                                    Bootstrap.</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+
                                 </div>
                             </div>
                         </div>
                         <!-- @Q-3 -->
                         <div class="accordion-item">
                             <h2 class="accordion-header" id="headingThree">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                    Accordion Item #3
+                                <button class="accordion-button collapsed fw-semibold fs-5" type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false"
+                                    aria-controls="collapseThree">What is CSS Box-Model?
                                 </button>
                             </h2>
                             <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
                                 data-bs-parent="#accordionExample">
-                                <div class="accordion-body">
-                                    <strong>This is the third item's accordion body.</strong> It is hidden by default,
-                                    until
-                                    the
-                                    collapse plugin adds the appropriate classes that we use to style each element.
-                                    These
-                                    classes control the overall appearance, as well as the showing and hiding via CSS
-                                    transitions. You can modify any of this with custom CSS or overriding our default
-                                    variables.
-                                    It's also worth noting that just about any HTML can go within the
-                                    <code>.accordion-body</code>, though the transition does limit overflow.
+                                <div class="accordion-body fw-normal fs-6 text-secondary">
+                                    The CSS box model is a container that contains multiple properties including
+                                    borders, margin, padding, and the content itself. It is used to create the design
+                                    and layout of web pages. It can be used as a toolkit for customizing the layout of
+                                    different elements. The web browser renders every element as a rectangular box
+                                    according to the CSS box model. Box-Model has multiple properties in CSS. Some of
+                                    them are given below:
+                                    <ul>
+                                        <li>
+                                            <strong>Content:</strong> This property is used to displays the text,
+                                            images, etc, that can
+                                            be sized using the width & height property.
+                                        </li>
+                                        <li>
+                                            <strong>Padding:</strong> This property is used to create space around the
+                                            element, inside
+                                            any defined border.
+                                        </li>
+                                        <li>
+                                            <strong>Border:</strong> This property is used to cover the content & any
+                                            padding, & also
+                                            allows to set the style, color, and width of the border.
+                                        </li>
+                                        <li>
+                                            <strong>Margin:</strong> This property is used to create space around the
+                                            element ie., around
+                                            the border area.
+
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- @Q-4 -->
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingFour">
+                                <button class="accordion-button collapsed fw-semibold fs-5" type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false"
+                                    aria-controls="collapseFour">What is Semantic Tag?
+                                </button>
+                            </h2>
+                            <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body fw-normal fs-6 text-secondary">
+                                    The HTML semantics refers to the tags that provide meaning to an HTML page rather
+                                    than just presentation. It makes HTML more comprehensible by better defining the
+                                    different sections and layout of web pages.
+                                    <br>
+                                    A semantic element clearly describes its meaning to both the browser and the
+                                    developer.
+
+                                    <!-- 
+                                    You can show HTML tags as plain text in HTML on a website or webpage by replacing < with &lt; or &60; and > with &gt; or &62; on each HTML tag that you want to be visible. Ordinarily, HTML tags are not visible to the reader on the browser. They are there but you cannot see them. 
+                                    -->
+
+                                    Examples of non-semantic elements: <strong>&lt;div&gt;</strong> and
+                                    <strong>&lt;span&gt;</strong> -
+                                    Tells nothing
+                                    about its
+                                    content.
+                                    Examples of semantic elements: <strong>&lt;form&gt;</strong>,
+                                    <strong>&lt;table&gt;</strong>, and
+                                    <strong>&lt;article&gt;</strong> -
+                                    Clearly
+                                    defines its content.
+                                    <br>
+                                    <strong class="fst-italic">Some Semantic Tags:</strong>
+                                    <br>
+                                    <strong>&lt;article&gt;</strong>
+                                    <br>
+                                    <strong>&lt;aside&gt;</strong>
+                                    <br>
+                                    <strong>&lt;details&gt;</strong>
+                                    <br>
+                                    <strong>&lt;figcaption&gt;</strong>
+                                    <br>
+                                    <strong>&lt;figure&gt;</strong>
+                                    <br>
+                                    <strong>&lt;footer&gt;</strong>
+                                    <br>
+                                    <strong>&lt;header&gt;</strong>
+                                    <br>
+                                    <strong>&lt;main&gt;</strong>
+                                    <br>
+                                    <strong>&lt;mark&gt;</strong>
+                                    <br>
+                                    <strong>&lt;nav&gt;</strong>
+                                    <br>
+                                    <strong>&lt;section&gt;</strong>
+                                    <br>
+                                    <strong>&lt;summary&gt;</strong>
+                                    <br>
+                                    <strong>&lt;time&gt;</strong>
+                                    <br>
                                 </div>
                             </div>
                         </div>
@@ -427,8 +568,54 @@
 
     </section>
 
-    <!-- Font-Awesome -->
-    <script src="https://kit.fontawesome.com/c672fc591a.js" crossorigin="anonymous"></script>
+    <!-- Footer Start -->
+    <footer class="bg-black mt-5 mt-lg-0 p-5 d-flex justify-content-center">
+        <div class="text-white text-center py-5">
+            <!-- footer-title -->
+            <div class="d-flex justify-content-center">
+                <h1 class="fw-semibold fs-1">
+                    Tech & Edu
+                </h1>
+            </div>
+            <!-- footer info -->
+            <div class="d-flex justify-content-center">
+                <div class="w-75">
+                    <p class="fw-normal fs-6">
+                        Office 41, Zawaya Buildin, Ghala Muscat,
+                        Sultanate of Oman
+                    </p>
+                    <p class="fw-normal small ">
+                        <a href="#" class="text-info text-decoration-none small">Privacy Policy</a>
+                        |
+                        <a href="#" class="text-info text-decoration-none small">Terms of
+                            use</a>
+                    </p>
+                </div>
+            </div>
+            <!-- social-icons -->
+            <div class="fs-5 d-flex gap-3 justify-content-center">
+                <!-- fb -->
+                <a href="https://www.facebook.com/programmingherowebcourse" target="_blank"
+                    class="py-2 px-3 rounded-circle bg-primary text-white">
+                    <i class="fa-brands fa-facebook-f"></i></a>
+                <!-- twitter -->
+                <a href="https://twitter.com/?lang=en" target="_blank"
+                    class="py-2 px-3 rounded-circle bg-primary text-white">
+                    <i class="fa-brands fa-twitter"></i></a>
+                <!-- linkedin -->
+                <a href="https://www.linkedin.com/company/programminghero/" target="_blank"
+                    class="py-2 px-3 rounded-circle bg-primary text-white">
+                    <i class="fa-brands fa-linkedin-in"></i></a>
+                <!-- github -->
+                <a href="https://github.com/ProgrammingHero1" target="_blank"
+                    class="py-2 px-3 rounded-circle bg-primary text-white">
+                    <i class="fa-brands fa-github"></i></a>
+            </div>
+        </div>
+    </footer>
+    <!-- Footer End -->
+
+
     <!-- BOOTSTRAP JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
